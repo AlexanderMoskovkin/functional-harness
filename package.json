@@ -1,0 +1,37 @@
+{
+  "name": "testcafe-functional-harness",
+  "version": "0.0.1",
+  "description": "Runs functional tests in local browsers and on SauceLabs",
+  "author": "Alexander Moskovkin",
+  "contributors": "Georgiy Abbasov",
+  "homepage": "https://github.com/AlexanderMoskovkin/testcafe-functional-harness/",
+  "bugs": "https://github.com/AlexanderMoskovkin/testcafe-functional-harness/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexanderMoskovkin/testcafe-functional-harness.git"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.20",
+    "es6-promise": "^3.0.2",
+    "es6-promisify": "^3.0.0",
+    "express": "^4.13.3",
+    "mocha": "^2.3.4",
+    "request": "^2.67.0",
+    "saucelabs-connector": "0.0.1",
+    "testcafe-browser-natives": "^0.10.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-eslint": "^4.0.5",
+    "del": "^2.1.0",
+    "eslint": "^1.9.0",
+    "eslint-plugin-babel": "^2.1.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-eslint": "^1.0.0"
+  },
+  "files": [
+    "lib"
+  ]
+}
